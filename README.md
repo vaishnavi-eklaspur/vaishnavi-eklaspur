@@ -63,13 +63,12 @@ I tend to explore ideas slowly at first, but once something genuinely interests 
 
 ## GitHub activity
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=vaishnavi-eklaspur&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" width="100%" />
-</p>
+
 
 <p align="left">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=transparent&hide_border=true" width="100%" />
 </p>
+
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:38bdf8&height=160&section=footer&width=100%"/>
