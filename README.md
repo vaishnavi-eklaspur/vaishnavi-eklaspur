@@ -8,8 +8,6 @@ Final-year mechanical engineering student by degree, software builder by choice.
 I design and build systems that value clarity, usability, and real-world convenience.
 </p>
 
-
-
 ## What I’m building <sub><i>(currently)</i></sub>
 
 *Backend-first focus.*
@@ -17,20 +15,14 @@ I design and build systems that value clarity, usability, and real-world conveni
 I’m working on a **Smart Clinic platform** — a full-stack healthcare system with doctor & patient dashboards, appointments, prescriptions, follow-ups, video consultations, payments, and feedback.  
 Built using **Java & Spring Boot**, with clean architecture and scalability in mind.
 
-
-
 ## How I think about software
 
 I’m drawn to systems that feel intuitive to users but are thoughtfully engineered underneath.  
 I enjoy working end-to-end — from backend architecture to frontend logic — especially when the goal is to reduce friction rather than add unnecessary complexity.
 
-
-
 ## How I usually work
 
 I tend to explore ideas slowly at first, but once something genuinely interests me, I get deeply focused on refining edge cases, flows, and details most people never notice.
-
-
 
 ## Connect with me
 
@@ -46,8 +38,6 @@ I tend to explore ideas slowly at first, but once something genuinely interests 
   </a>
 </p>
 
-
-
 ## Languages & Tools
 
 <p align="left">
@@ -59,16 +49,17 @@ I tend to explore ideas slowly at first, but once something genuinely interests 
   <img src="https://img.icons8.com/color/48/000000/blockchain.png" height="36"/>
 </p>
 
-
-
 ## GitHub activity
 
+<!-- Contribution graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi-eklaspur&theme=react-dark&hide_border=true" />
 
+<br/>
 
+<!-- Streak stats -->
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=transparent&hide_border=true" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=react-dark&hide_border=true" width="100%" />
 </p>
 
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:38bdf8&height=160&section=footer&width=100%"/>
+<!-- Neon blue wave footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:38bdf8,100:2563eb&height=180&section=footer&width=100%"/>
