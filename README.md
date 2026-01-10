@@ -57,9 +57,8 @@ I tend to explore ideas slowly at first, but once something genuinely interests 
 <br/>
 
 <!-- Streak stats -->
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=react-dark&hide_border=true" width="100%" />
-</p>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=transparent&background=00000000&hide_border=true&ring=38bdf8&fire=22d3ee&currStreakLabel=38bdf8&sideNums=38bdf8&dates=94a3b8" width="100%" />
+
 
 <!-- Neon blue wave footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:38bdf8,100:2563eb&height=180&section=footer&width=100%"/>
