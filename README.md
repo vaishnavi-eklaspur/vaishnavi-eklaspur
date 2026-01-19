@@ -33,9 +33,6 @@ I tend to explore ideas slowly at first, but once something genuinely interests 
   <a href="https://linkedin.com/in/vaishnavi-eklaspur" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="26" />
   </a>
-  <a href="mailto:vaishnavieklaspur3284@gmail.com">
-    <img src="https://img.icons8.com/color/48/gmail-new.png" width="26" />
-  </a>
 </p>
 
 ## Languages & Tools
@@ -55,10 +52,6 @@ I tend to explore ideas slowly at first, but once something genuinely interests 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi-eklaspur&theme=react-dark&hide_border=true" />
 
 <br/>
-
-<!-- Streak stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=transparent&background=00000000&hide_border=true&ring=38bdf8&fire=22d3ee&currStreakLabel=38bdf8&sideNums=38bdf8&dates=94a3b8" width="100%" />
-
 
 <!-- Neon blue wave footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:38bdf8,100:2563eb&height=180&section=footer&width=100%"/>
