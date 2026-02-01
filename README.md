@@ -1,57 +1,187 @@
-<p align="left">
-  <img src="https://readme-typing-svg.herokuapp.com?size=38&duration=3000&pause=1200&color=FFFFFF&vCenter=true&width=420&lines=Hello+%F0%9F%91%8B;Bonjour+%F0%9F%91%8B;Hola+%F0%9F%91%8B;Namaste+%F0%9F%91%8B" />
-</p>
+# Portfolio Website
 
-<h1 align="left">I’m Vaishnavi Eklaspur</h1>
-<p align="left">
-Final-year mechanical engineering student by degree, software builder by choice.<br/>
-I design and build systems that value clarity, usability, and real-world convenience.
-</p>
+A modern, animated portfolio website built with React, Vite, and GSAP featuring four main sections:
 
-## What I’m building <sub><i>(currently)</i></sub>
+1. **What I've Built (Projects)** - Showcasing projects with CardSwap animation
+2. **Skillset Board** - Interactive skill display with certificate counter
+3. **Career Timeline** - 3D horizontal scrollable timeline with parallel tracks
+4. **Contact Form** - Clean contact form with validation
 
-*Backend-first focus.*
+## 🚀 Features
 
-I’m working on a **Smart Clinic platform** — a full-stack healthcare system with doctor & patient dashboards, appointments, prescriptions, follow-ups, video consultations, payments, and feedback.  
-Built using **Java & Spring Boot**, with clean architecture and scalability in mind.
+### Section 1: Projects
+- Animated counter (1 → 3)
+- CardSwap animation with 5+ project cards
+- Left panel with dynamic project details
+- Tech stack badges
+- Three action links per project (Demo, Live, Code)
+- Clickable video thumbnails
 
-## How I think about software
+### Section 2: Skillset Board
+- Animated certificate counter
+- Interactive skill cards with progress bars
+- Tech stack categorization (Backend, Frontend, DevOps, Emerging Tech)
+- "View More Certificates" button linking to dedicated page
 
-I’m drawn to systems that feel intuitive to users but are thoughtfully engineered underneath.  
-I enjoy working end-to-end — from backend architecture to frontend logic — especially when the goal is to reduce friction rather than add unnecessary complexity.
+### Section 3: Career Timeline
+- Horizontal drag/scroll functionality (no visible scrollbar)
+- 3 parallel timeline tracks with 3D layered effect:
+  - Academic Track
+  - Internships Track
+  - Volunteering Track
+- Interactive hover effects on timeline cards
 
-## How I usually work
+### Section 4: Contact Form
+- Name, Email, Message fields
+- Form validation
+- Success/Error feedback
+- Contact information cards
 
-I tend to explore ideas slowly at first, but once something genuinely interests me, I get deeply focused on refining edge cases, flows, and details most people never notice.
+### Additional Pages
+- `/certificates` - Dedicated certificates showcase page with grid layout
 
-## Connect with me
+## 🎨 Design
 
-<p align="left">
-  <a href="https://github.com/vaishnavi-eklaspur" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" width="26" />
-  </a>
-  <a href="https://linkedin.com/in/vaishnavi-eklaspur" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="26" />
-  </a>
-</p>
+- **Color Scheme**: Purple gradient (#667eea to #764ba2)
+- **Background**: Dark theme (#0a0a0a, #1a1a1a)
+- **Typography**: White text with gray accents
+- **Animations**: GSAP-powered smooth transitions
+- **Responsive**: Mobile-friendly design
 
-## Languages & Tools
+## 📦 Installation
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,js,html,css,postgres,mysql,git,docker,linux" />
-</p>
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/hyperledger/hyperledger-icon.svg" height="36"/>
-  <img src="https://img.icons8.com/color/48/000000/blockchain.png" height="36"/>
-</p>
+### Setup
 
-## GitHub activity
+1. Clone the repository:
+```bash
+git clone https://github.com/vaishnavi-eklaspur/vaishnavi-eklaspur.git
+cd vaishnavi-eklaspur
+```
 
-<!-- Contribution graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vaishnavi-eklaspur&theme=react-dark&hide_border=true" />
+2. Install dependencies:
+```bash
+npm install
+```
 
-<br/>
+3. Start the development server:
+```bash
+npm run dev
+```
 
-<!-- Neon blue wave footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:38bdf8,100:2563eb&height=180&section=footer&width=100%"/>
+4. Open your browser and navigate to:
+```
+http://localhost:5173
+```
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## 📁 Project Structure
+
+```
+vaishnavi-eklaspur/
+├── src/
+│   ├── components/
+│   │   ├── ProjectsSection.jsx      # Section 1: Projects with CardSwap
+│   │   ├── ProjectsSection.css
+│   │   ├── SkillsetBoard.jsx        # Section 2: Skills & Certificates
+│   │   ├── SkillsetBoard.css
+│   │   ├── CareerTimeline.jsx       # Section 3: 3D Timeline
+│   │   ├── CareerTimeline.css
+│   │   ├── ContactForm.jsx          # Section 4: Contact
+│   │   └── ContactForm.css
+│   ├── pages/
+│   │   ├── Certificates.jsx         # Certificates page
+│   │   └── Certificates.css
+│   ├── App.jsx                      # Main app component
+│   ├── App.css
+│   ├── main.jsx                     # Entry point
+│   └── index.css                    # Global styles
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🛠️ Technologies Used
+
+- **React 18.2** - UI framework
+- **Vite 5.0** - Build tool and dev server
+- **GSAP 3.12** - Animation library
+- **React Router 6.20** - Client-side routing
+- **CSS3** - Styling with modern features
+
+## ✏️ Customization
+
+All content is editable and stored in the component files:
+
+### Projects (ProjectsSection.jsx)
+Update the `projects` array with your own project data:
+```javascript
+const projects = [
+  {
+    name: "Your Project Name",
+    techStack: ["Tech1", "Tech2"],
+    description: "Your description",
+    demoLink: "https://youtube.com/...",
+    liveLink: "https://yoursite.com",
+    codeLink: "https://github.com/...",
+    thumbnail: "https://your-image-url.com"
+  }
+];
+```
+
+### Skills (SkillsetBoard.jsx)
+Update the `skills` array and `techCategories`:
+```javascript
+const skills = [
+  { name: "Skill Name", level: 90, icon: "🔥" }
+];
+```
+
+### Timeline (CareerTimeline.jsx)
+Update the three track arrays:
+```javascript
+const academicTrack = [
+  { year: "2024", title: "Your Title", description: "Description" }
+];
+```
+
+### Certificates (Certificates.jsx)
+Update the `certificates` array:
+```javascript
+const certificates = [
+  {
+    id: 1,
+    title: "Certificate Title",
+    issuer: "Issuer Name",
+    date: "Date",
+    image: "image-url"
+  }
+];
+```
+
+## 📝 License
+
+This project is open source and available for personal and commercial use.
+
+## 👤 Author
+
+**Vaishnavi Eklaspur**
+- GitHub: [@vaishnavi-eklaspur](https://github.com/vaishnavi-eklaspur)
+- LinkedIn: [vaishnavi-eklaspur](https://linkedin.com/in/vaishnavi-eklaspur)
+
+## 🙏 Acknowledgments
+
+- Built with React and Vite
+- Animations powered by GSAP
+- Design inspired by modern portfolio trends
