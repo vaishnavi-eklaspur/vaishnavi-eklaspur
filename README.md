@@ -13,10 +13,9 @@ My work sits at the intersection of clean backend architecture and interfaces th
 ---
 <p align="left">
   <a href="https://vaishnavieklaspur-portfolio.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=22D3EE&background=00000000&vCenter=true&width=420&lines=%E2%86%92+Open+Portfolio.exe" />
   </a>
 </p>
-
 <br/>
 
 ## 🛠️ Currently building
