@@ -11,6 +11,11 @@ I study machines for my degree. I build software because I can't stop thinking a
 My work sits at the intersection of clean backend architecture and interfaces that don't get in your way. I care about the 10% of decisions that determine 90% of the experience — the edge cases, the flows, the details most people never notice but always feel.
 
 ---
+<p align="left">
+  <a href="https://vaishnavieklaspur-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
 
 <br/>
 
