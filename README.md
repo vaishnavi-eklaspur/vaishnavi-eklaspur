@@ -4,11 +4,11 @@
 
 # Vaishnavi Eklaspur
 
-**Mechanical engineering student. Software builder. Occasional German speaker.**
+**Software Engineer. Backend & Distributed Systems Builder. Occasional German speaker.**
 
-I study machines for my degree. I build software because I can't stop thinking about it.
+Leveraging a strong analytical foundation from mechanical engineering to build scalable, secure, and highly efficient software solutions. 
 
-My work sits at the intersection of clean backend architecture and interfaces that don't get in your way. I care about the 10% of decisions that determine 90% of the experience — the edge cases, the flows, the details most people never notice but always feel.
+My work sits at the intersection of rigorous backend architecture and interfaces that don't get in your way. I care about the 10% of decisions that determine 90% of the experience — the edge cases, the data flows, and the infrastructure details most people never notice but always rely on.
 
 ---
 <p align="left">
@@ -20,12 +20,19 @@ My work sits at the intersection of clean backend architecture and interfaces th
 
 ## 🛠️ Currently building
 
-### Smart Clinic Platform
-*Java · Spring Boot · React · PostgreSQL · Docker · Prometheus*
+### 🔗 Credura: Blockchain-Based Academic Credential System
+*Hyperledger Fabric · Smart Contracts · IPFS · Docker · Kubernetes*
 
-A full-stack healthcare system with doctor & patient dashboards, appointment booking with policy enforcement, Razorpay payment integration, automated PDF invoice and prescription generation, Flyway migration-driven schema versioning, and Prometheus observability.
+Architecting a decentralized credential verification platform built on Hyperledger Fabric smart contracts. Tamper-proof, immutable academic records stored on IPFS with Docker/Kubernetes for scalability. This architecture achieved sub-second validation latency and culminated in a published conference paper at IEEE ICEAMST 2025.
 
-Role-based access control across Patient / Doctor / Admin. Containerized with Docker. Structured for scale.
+> 🔒 Private repo — actively in development. Stay tuned.
+
+<br/>
+
+### 🤖 AI-Based Career Counselling Chatbot
+*React · MongoDB · Rasa · TF-IDF · Word2Vec · Machine Learning*
+
+An AI chatbot that combines TF-IDF + Word2Vec for intent recognition with Logistic Regression + Random Forest for personality-based career recommendations. Utilizing K-Means clustering and collaborative filtering to hit 85% prediction accuracy.
 
 > 🔒 Private repo — actively in development. Stay tuned.
 
@@ -35,34 +42,47 @@ Role-based access control across Patient / Doctor / Admin. Containerized with Do
 
 ## 🚀 Shipped
 
+### 📈 MacroShock — Multi-Asset Stress-Testing & Factor-Attribution Engine
+*Python · Flask · React.js · Docker · Quantitative Finance*
+
+**[→ Live App](https://macroshock.streamlit.app)** &nbsp;·&nbsp; **[→ Repo](https://github.com/vaishnavi-eklaspur/MacroShock)**
+
+A deployed multi-asset portfolio risk engine built on real market data (2015–2026). Decomposes why a portfolio breaks under macro shocks, quantifies tail risk, and proposes constrained mitigation trades. Implemented quant methods from first principles (Ledoit–Wolf covariance shrinkage, chi-square regime detection, fat-tailed VaR/CVaR).
+
+Validated on real data (recovering published bond durations independently) with a leakage-free, leave-one-crisis-out backtest. Backed by 79% test coverage, a Docker boot smoke-test, and Redis caching.
+
+<br/>
+
+### 👁️ StoreSense — Retail CCTV Analytics
+*FastAPI · Computer Vision (YOLO11) · PostgreSQL · Python · CI/CD*
+
+**[→ Live Dashboard](https://storesense-szad.onrender.com/dashboard)** &nbsp;·&nbsp; **[→ Repo (Private)](https://github.com/vaishnavi-eklaspur/Store_Sense)**
+
+An end-to-end system that turns raw CCTV footage into live retail analytics: conversion funnels, zone heatmaps, queue abandonment, and anomaly detection. 
+
+Processes 3+ camera feeds via YOLO11, ByteTrack, and OpenCLIP into an async FastAPI service. Diagnosed and fixed a 24x visitor over-count caused by single-frame ghost detections using a 3-frame consensus gate, landing within 20% of manually verified ground truth. Deployed with a one-command Docker Compose stack and self-seeded round the clock via GitHub Actions.
+
+<br/>
+
 ### ⛓️ Duo Challenge Tracker
-*React 18 · Vite · Supabase · Tailwind CSS · Vercel*
+*React 18 · Vite · Neon (Serverless Postgres) · Tailwind CSS · Vercel*
 
 **[→ Live App](https://duo-challenge-tracker-brown.vercel.app)** &nbsp;·&nbsp; **[→ Repo](https://github.com/vaishnavi-eklaspur/Duo-Challenge-Tracker)**
 
-A real-time habit accountability app for two people. The core idea: a grid fills up amber as days get completed. Skipped days stay dark red. That visual tension is the whole product.
+A zero-friction habit accountability app for two people running a shared daily challenge. A GitHub-style contribution grid fills in amber for perfect days and dark red for missed ones, creating visible pressure to keep a streak alive for both partners.
 
-Built with Google OAuth, multi-room support via unique 6-char invite links, live partner sync over Supabase websockets, a 16-condition nudge system using real names and real numbers, and RLS enforced at the database level — all in a single React component with no external UI library.
-
-> *"Priya finished all 5 today. You haven't started."*
+Migrated the backend to a serverless Postgres architecture on Neon, queried directly from the browser via Data API. Features a zero-step localStorage identity model, client-side polling with optimistic UI, and a 16-condition nudge engine that generates personalized, name-specific prompts rather than generic motivation. 
 
 <br/>
 
-### 🔗 Blockchain-Based Academic Credential System
-*Hyperledger Fabric · Smart Contracts · IPFS · Docker · Kubernetes*
+### 🏥 Smart Clinic Management System
+*Java 17 · Spring Boot · React.js · PostgreSQL · Docker*
 
-A decentralized credential verification platform built on Hyperledger Fabric smart contracts. Tamper-proof, immutable academic records stored on IPFS with Docker/Kubernetes for scalability. Improved verification efficiency by 40%.
+**[→ Live App](https://smartclinic-web-sigma.vercel.app/)** &nbsp;·&nbsp; **[→ Repo (Private)](https://github.com/vaishnavi-eklaspur/Smart-Clinic-Management)** 
 
-> 🔒 Private repo — stay tuned.
+A full-stack healthcare platform featuring robust role-based access control (Patient/Doctor/Admin) using Spring Security, JPA, and Flyway for migration-driven schema versioning. Delivered end-to-end features including appointment booking with policy enforcement, Razorpay payment integration, automated PDF invoice/prescription generation, and structured audit logging.
 
-<br/>
-
-### 🤖 AI-Based Career Counselling Chatbot
-*React · MongoDB · Rasa · TF-IDF · Word2Vec · Machine Learning*
-
-An AI chatbot that combines TF-IDF + Word2Vec for intent recognition with Logistic Regression + Random Forest for personality-based career recommendations. K-Means clustering and collaborative filtering with 85% prediction accuracy.
-
-> 🔒 Private repo — stay tuned.
+> 🔒 Private repo — code walkthrough or access available upon request.
 
 <br/>
 
@@ -70,10 +90,10 @@ An AI chatbot that combines TF-IDF + Word2Vec for intent recognition with Logist
 
 ## 🌍 A few things that don't fit neatly anywhere else
 
-- I'm a **mechanical engineering student** who somehow ended up deep in Spring Boot, Hyperledger, and Supabase RLS policies
-- I went to **Coventry, UK** for a month to build a Unity 3D game prototype at a game jam — shipped it, came back
-- I lead a **Foreign Language Club** and hold A2 German proficiency — hence the *Hallo* in the typing animation
-- I think the best software feels like it was obvious all along
+- I leverage my **mechanical engineering background** to bring a rigorous, system-level problem-solving approach to software development.
+- I went to **Coventry, UK** for a month to build a Unity 3D game prototype at a game jam — shipped it, came back.
+- I hold **A2 German proficiency** and spent 4 years leading a Foreign Language Club — hence the *Hallo* in the typing animation.
+- I think the best software feels like it was obvious all along.
 
 <br/>
 
@@ -82,7 +102,7 @@ An AI chatbot that combines TF-IDF + Word2Vec for intent recognition with Logist
 ## 🧰 Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,js,python,cs,html,css,postgres,mongodb,docker,kubernetes,git,linux" />
+  <img src="https://skillicons.dev/icons?i=java,spring,react,js,python,cs,fastapi,flask,postgres,mongodb,docker,kubernetes,git,linux" />
 </p>
 
 <p align="left">
