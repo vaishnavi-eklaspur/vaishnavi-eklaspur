@@ -20,15 +20,6 @@ My work sits at the intersection of rigorous backend architecture and interfaces
 
 ## 🛠️ Currently building
 
-### 🔗 Credura: Blockchain-Based Academic Credential System
-*Hyperledger Fabric · Smart Contracts · IPFS · Docker · Kubernetes*
-
-Architecting a decentralized credential verification platform built on Hyperledger Fabric smart contracts. Tamper-proof, immutable academic records stored on IPFS with Docker/Kubernetes for scalability. This architecture achieved sub-second validation latency and culminated in a published conference paper at IEEE ICEAMST 2025.
-
-> 🔒 Private repo — actively in development. Stay tuned.
-
-<br/>
-
 ### 🤖 AI-Based Career Counselling Chatbot
 *React · MongoDB · Rasa · TF-IDF · Word2Vec · Machine Learning*
 
@@ -41,6 +32,17 @@ An AI chatbot that combines TF-IDF + Word2Vec for intent recognition with Logist
 ---
 
 ## 🚀 Shipped
+
+### 🔗 Credura: Blockchain-Based Academic Credential System
+*Hyperledger Fabric · Smart Contracts · IPFS · Docker · Kubernetes*
+
+**[→ Live App](https://credura.duckdns.org/)** &nbsp;·&nbsp; **[→ Repo (Private)](https://github.com/vaishnavi-eklaspur/credura)**
+
+A decentralized credential verification platform built on Hyperledger Fabric smart contracts. Tamper-proof, immutable academic records stored on IPFS with Docker/Kubernetes for scalability. This architecture achieved sub-second validation latency and culminated in a published conference paper at IEEE ICEAMST 2025.
+
+> 🔒 Repo is private — code walkthrough or access available upon request.
+
+<br/>
 
 ### 📈 MacroShock — Multi-Asset Stress-Testing & Factor-Attribution Engine
 *Python · Flask · React.js · Docker · Quantitative Finance*
