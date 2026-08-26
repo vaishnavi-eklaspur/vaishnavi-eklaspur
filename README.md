@@ -58,7 +58,7 @@ Validated on real data (recovering published bond durations independently) with 
 ### 👁️ StoreSense — Retail CCTV Analytics
 *FastAPI · Computer Vision (YOLO11) · PostgreSQL · Python · CI/CD*
 
-**[→ Live Dashboard](https://storesense-szad.onrender.com/dashboard)** &nbsp;·&nbsp; **[→ Repo (Private)](https://github.com/vaishnavi-eklaspur/Store_Sense)**
+**[→ Live Dashboard](https://storesense-demo.vercel.app/)** &nbsp;·&nbsp; **[→ Repo (Private)](https://github.com/vaishnavi-eklaspur/Store_Sense)**
 
 An end-to-end system that turns raw CCTV footage into live retail analytics: conversion funnels, zone heatmaps, queue abandonment, and anomaly detection. 
 
