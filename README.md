@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Vaishnavi Eklaspur — backend and distributed systems" />
+  <img src="assets/hero.svg" width="100%" alt="Vaishnavi Eklaspur" />
 
   <!-- Animated Typing Effect -->
   <a href="https://vaishnavieklaspur-portfolio.vercel.app/">
@@ -12,83 +12,60 @@
     <a href="https://linkedin.com/in/vaishnavi-eklaspur"><img src="https://img.shields.io/badge/▶_LINKEDIN-22d3ee?style=for-the-badge&labelColor=0f172a" /></a>
     <a href="mailto:vaishnavieklaspur3284@gmail.com"><img src="https://img.shields.io/badge/▶_HIRE_PLAYER_1-f472b6?style=for-the-badge&labelColor=0f172a" /></a>
   </div>
-  
-  <p style="font-size: 14px; color: #94a3b8; max-width: 700px; margin-top: 15px;">
-    I build backends that stay up and interfaces that get out of the way. Most of my work lives in the edge cases, the data flows, and the infrastructure details nobody notices but everybody relies on.
-  </p>
 </div>
 
 ---
 
-## 💻 `vaishnavi@edge:~/projects$`
+## ⚙️ THE ORIGIN: MECHANICAL TO SOFTWARE
 
-<details>
-<summary><code>./inspect credura.sh</code> <img src="https://img.shields.io/badge/live_|_private_repo-475569?style=flat-square&labelColor=0f172a" align="right" /></summary>
-<br/>
-<blockquote>
-<b>Decentralised academic credential verification hitting sub-second validation latency on tamper-proof records.</b> Published paper at IEEE ICEAMST 2025.<br/><br/>
-<img src="https://img.shields.io/badge/Stack-Hyperledger_Fabric_·_IPFS_·_Docker_·_K8s-a78bfa?style=flat-square&labelColor=0f172a" /><br/>
-<p>💎 <b>THE 10% DECISION:</b> Put hashes on-chain, but documents on IPFS. Got sub-second validation without paying a ledger to store heavy blobs.</p>
-<a href="https://credura.duckdns.org/">[Execute live deployment]</a>
-</blockquote>
-</details>
+> **Most developers design for the happy path. I design for the failure modes.**
 
-<details>
-<summary><code>./inspect duo-tracker.tsx</code> <img src="https://img.shields.io/badge/live_|_repo-fb923c?style=flat-square&labelColor=0f172a" align="right" /></summary>
-<br/>
-<blockquote>
-<b>A shared habit grid for exactly two people.</b> Serverless Postgres queried straight from the browser with a 16-condition nudge engine writing specific prompts.<br/><br/>
-<img src="https://img.shields.io/badge/Stack-React_18_·_Vite_·_Neon_·_Tailwind-f472b6?style=flat-square&labelColor=0f172a" /><br/>
-<p>💎 <b>THE 10% DECISION:</b> Zero-step localStorage identity instead of email/password auth. Eliminated onboarding friction so two people *actually* used it.</p>
-<a href="https://duo-challenge-tracker-brown.vercel.app">[Execute live deployment]</a> · <a href="https://github.com/vaishnavi-eklaspur/Duo-Challenge-Tracker">[View source]</a>
-</blockquote>
-</details>
+My background isn't in standard web development; it's in mechanical engineering. I treat software infrastructure like physical systems—if it can't handle stress, it breaks. I build backends that stay up, data flows that don't bottleneck, and edge-case logic that prevents system collapse. Most of my work lives in the infrastructure details nobody notices, but everybody relies on. 
 
-<details>
-<summary><code>./inspect macroshock.py</code> <img src="https://img.shields.io/badge/live_|_repo-a3e635?style=flat-square&labelColor=0f172a" align="right" /></summary>
-<br/>
-<blockquote>
-<b>A multi-asset portfolio risk engine on real 2015–2026 market data.</b> Independently recovered published bond durations from first principles. 79% test coverage.<br/><br/>
-<img src="https://img.shields.io/badge/Stack-Python_·_Flask_·_Redis_·_Docker-22d3ee?style=flat-square&labelColor=0f172a" /><br/>
-<p>💎 <b>THE 10% DECISION:</b> Used a leave-one-crisis-out backtest instead of a random train/test split. Zero data leakage.</p>
-<a href="https://macroshock.streamlit.app">[Execute live deployment]</a> · <a href="https://github.com/vaishnavi-eklaspur/MacroShock">[View source]</a>
-</blockquote>
-</details>
+---
 
-<details>
-<summary><code>./inspect rahi.ts</code> <img src="https://img.shields.io/badge/live_|_repo-a78bfa?style=flat-square&labelColor=0f172a" align="right" /></summary>
-<br/>
-<blockquote>
-<b>An AI career counsellor that measures interests, aptitude, and emotional strengths.</b> Matches students to real-world careers.<br/><br/>
-<img src="https://img.shields.io/badge/Stack-Next.js_16_·_TypeScript_·_Gemini_·_Playwright-f472b6?style=flat-square&labelColor=0f172a" /><br/>
-<p>💎 <b>THE 10% DECISION:</b> Grounded the LLM strictly in the user's assessment results. It *cannot* invent or hallucinate a career the test never measured.</p>
-<a href="https://rahi-fawn.vercel.app/">[Execute live deployment]</a> · <a href="https://github.com/vaishnavi-eklaspur/rahi">[View source]</a>
-</blockquote>
-</details>
+<div align="center">
+  <!-- THE CUSTOM UI WIDGET -->
+  <img src="assets/terminal-ui.svg" width="800" alt="Interactive UI Showcase" />
 
-<details>
-<summary><code>./inspect smart-clinic.java</code> <img src="https://img.shields.io/badge/live_|_private_repo-f472b6?style=flat-square&labelColor=0f172a" align="right" /></summary>
-<br/>
-<blockquote>
-<b>Full-stack healthcare platform with Patient/Doctor/Admin RBAC.</b> Shipped end-to-end: booking, Razorpay integration, PDF invoices, and structured audit logs.<br/><br/>
-<img src="https://img.shields.io/badge/Stack-Java_17_·_Spring_Boot_·_PostgreSQL_·_Flyway-22d3ee?style=flat-square&labelColor=0f172a" /><br/>
-<p>💎 <b>THE 10% DECISION:</b> Used Flyway migration-driven schema versioning over Hibernate `ddl-auto`. Schema history is now reviewable, reversible, and identical everywhere.</p>
-<a href="https://smartclinic-web-sigma.vercel.app/">[Execute live deployment]</a>
-</blockquote>
-</details>
+  <!-- ZERO-GAP PROJECT ROUTING LINKS -->
+  <br/><br/>
+  <h3 align="left">🔗 LIVE DEPLOYMENTS & ARCHITECTURE</h3>
+  <div align="left">
+    <a href="https://credura.duckdns.org/"><img src="https://img.shields.io/badge/CREDURA-live_&_private-a78bfa?style=flat-square&labelColor=0f172a" /></a>
+    <a href="https://macroshock.streamlit.app"><img src="https://img.shields.io/badge/MACROSHOCK-live_&_repo-22d3ee?style=flat-square&labelColor=0f172a" /></a>
+    <a href="https://duo-challenge-tracker-brown.vercel.app"><img src="https://img.shields.io/badge/DUO_TRACKER-live_&_repo-f472b6?style=flat-square&labelColor=0f172a" /></a>
+    <a href="https://rahi-fawn.vercel.app/"><img src="https://img.shields.io/badge/RAHI_ENGINE-live_&_repo-a3e635?style=flat-square&labelColor=0f172a" /></a>
+    <a href="https://smartclinic-web-sigma.vercel.app/"><img src="https://img.shields.io/badge/SMART_CLINIC-live_&_private-fbbf24?style=flat-square&labelColor=0f172a" /></a>
+  </div>
+</div>
 
-<details>
-<summary><code>./inspect storesense.py</code> <img src="https://img.shields.io/badge/live_|_private_repo-fbbf24?style=flat-square&labelColor=0f172a" align="right" /></summary>
-<br/>
-<blockquote>
-<b>Raw CCTV turned into conversion funnels and zone heatmaps across 3+ feeds.</b> Landed within 20% of hand-verified truth.<br/><br/>
-<img src="https://img.shields.io/badge/Stack-FastAPI_·_YOLO11_·_OpenCV_·_CI/CD-a3e635?style=flat-square&labelColor=0f172a" /><br/>
-<p>💎 <b>THE 10% DECISION:</b> Implemented a 3-frame consensus gate before counting a track. Killed a massive 24× visitor over-count caused by ghost detections.</p>
-<a href="https://storesense-demo.vercel.app/">[Execute live deployment]</a>
-</blockquote>
-</details>
+---
 
-> 🔒 *Credura, Smart Clinic and StoreSense are private repos. Code walkthroughs available on request.*
+## 🏆 ACHIEVEMENTS UNLOCKED
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <b>🔧 CLASS CHANGE</b><br/>
+      Mechanical engineering → Software. Brought the rigorous, stress-tested failure-mode thinking with me.
+    </td>
+    <td width="50%" valign="top">
+      <b>🐛 BUG SLAYER</b><br/>
+      Found and killed a massive 24× over-count in CCTV tracking data that nobody else noticed.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>📄 PUBLISHED RESEARCH</b><br/>
+      IEEE ICEAMST 2025. Architected a blockchain credential verification engine hitting sub-second latency.
+    </td>
+    <td width="50%" valign="top">
+      <b>🗣️ SPRACHE FREIGESCHALTET</b><br/>
+      A2 German. Spent 4 years leading MITAOE's Foreign Language Club.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -103,17 +80,18 @@
   <img src="https://img.shields.io/badge/Google_Gemini-f472b6?style=flat-square&labelColor=0f172a" />
   <img src="https://img.shields.io/badge/Neon-a3e635?style=flat-square&labelColor=0f172a" />
   <img src="https://img.shields.io/badge/YOLO11_·_OpenCV-fbbf24?style=flat-square&labelColor=0f172a" />
-  <img src="https://img.shields.io/badge/Playwright-22d3ee?style=flat-square&labelColor=0f172a" />
-  <img src="https://img.shields.io/badge/IPFS-fb923c?style=flat-square&labelColor=0f172a" />
 </div>
 
 ---
 
-## 🏗️ SYSTEM ARCHITECTURE 
+## 📊 PLAYER STATS & ARCHITECTURE
 
 <div align="center">
-  <!-- This points to the 3D graph generated by the Action. It will render once the action runs successfully for the first time. -->
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contributions Cityscape" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vaishnavi-eklaspur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=f472b6&text_color=a78bfa" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=tokyonight&hide_border=true&background=00000000&ring=a78bfa&fire=f472b6&currStreakLabel=22d3ee" width="48%" />
+  <br/><br/>
+  <!-- The 3D Contribution Cityscape generated by your GitHub Action -->
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contributions Cityscape" />
 </div>
 
 ---
