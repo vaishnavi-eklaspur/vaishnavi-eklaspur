@@ -1,75 +1,83 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Vaishnavi Eklaspur" />
 
-  <!-- Animated Typing Effect -->
-  <a href="https://vaishnavieklaspur-portfolio.vercel.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&color=22D3EE&center=true&vCenter=true&width=800&lines=Mechanical+Engineer+turned+Software+Dev.;I+build+backends+that+stay+up.;Focusing+on+the+10%25+that+determines+the+90%25." alt="Typing SVG" />
-  </a>
-  
-  <!-- Zero-Gap Social & Navigation Hub -->
-  <div>
-    <a href="https://vaishnavieklaspur-portfolio.vercel.app/"><img src="https://img.shields.io/badge/▶_PORTFOLIO-a78bfa?style=for-the-badge&labelColor=0f172a" /></a>
-    <a href="https://linkedin.com/in/vaishnavi-eklaspur"><img src="https://img.shields.io/badge/▶_LINKEDIN-22d3ee?style=for-the-badge&labelColor=0f172a" /></a>
-    <a href="mailto:vaishnavieklaspur3284@gmail.com"><img src="https://img.shields.io/badge/▶_HIRE_PLAYER_1-f472b6?style=for-the-badge&labelColor=0f172a" /></a>
-  </div>
+# ⚙️ VAISHNAVI EKLASPUR
+**BACKEND & DISTRIBUTED SYSTEMS**
+
+<!-- Markdown syntax guarantees the typing SVG won't get cut off -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1500&color=22D3EE&center=true&vCenter=true&width=800&lines=Mechanical+Engineer+turned+Software+Dev.;I+build+backends+that+stay+up.;Focusing+on+the+10%25+that+determines+the+90%25.)](https://vaishnavieklaspur-portfolio.vercel.app/)
+
+<!-- Using strict Markdown links ensures the mailto and URLs never break -->
+[![Portfolio](https://img.shields.io/badge/▶_PORTFOLIO-a78bfa?style=for-the-badge&labelColor=0f172a)](https://vaishnavieklaspur-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/▶_LINKEDIN-22d3ee?style=for-the-badge&labelColor=0f172a)](https://linkedin.com/in/vaishnavi-eklaspur)
+[![Hire Player 1](https://img.shields.io/badge/▶_HIRE_PLAYER_1-f472b6?style=for-the-badge&labelColor=0f172a)](mailto:vaishnavieklaspur3284@gmail.com)
+
 </div>
 
----
+<br/>
 
-## ⚙️ THE ORIGIN: MECHANICAL TO SOFTWARE
-
-> **Most developers design for the happy path. I design for the failure modes.**
-
-My background isn't in standard web development; it's in mechanical engineering. I treat software infrastructure like physical systems—if it can't handle stress, it breaks. I build backends that stay up, data flows that don't bottleneck, and edge-case logic that prevents system collapse. Most of my work lives in the infrastructure details nobody notices, but everybody relies on. 
-
----
-
-<div align="center">
-  <!-- THE CUSTOM UI WIDGET -->
-  <img src="assets/terminal-ui.svg" width="800" alt="Interactive UI Showcase" />
-
-  <!-- ZERO-GAP PROJECT ROUTING LINKS -->
-  <br/><br/>
-  <h3 align="left">🔗 LIVE DEPLOYMENTS & ARCHITECTURE</h3>
-  <div align="left">
-    <a href="https://credura.duckdns.org/"><img src="https://img.shields.io/badge/CREDURA-live_&_private-a78bfa?style=flat-square&labelColor=0f172a" /></a>
-    <a href="https://macroshock.streamlit.app"><img src="https://img.shields.io/badge/MACROSHOCK-live_&_repo-22d3ee?style=flat-square&labelColor=0f172a" /></a>
-    <a href="https://duo-challenge-tracker-brown.vercel.app"><img src="https://img.shields.io/badge/DUO_TRACKER-live_&_repo-f472b6?style=flat-square&labelColor=0f172a" /></a>
-    <a href="https://rahi-fawn.vercel.app/"><img src="https://img.shields.io/badge/RAHI_ENGINE-live_&_repo-a3e635?style=flat-square&labelColor=0f172a" /></a>
-    <a href="https://smartclinic-web-sigma.vercel.app/"><img src="https://img.shields.io/badge/SMART_CLINIC-live_&_private-fbbf24?style=flat-square&labelColor=0f172a" /></a>
-  </div>
-</div>
+```bash
+vaishnavi@server:~$ cat origin_story.txt
+```
+> **Mechanical Engineer → Software Dev**
+> Most developers design for the happy path. I design for the failure modes. 
+> I treat software infrastructure like physical systems—if it can't handle stress, it breaks. I build backends that stay up, data flows that don't bottleneck, and edge-case logic that prevents system collapse. 
 
 ---
 
-## 🏆 ACHIEVEMENTS UNLOCKED
+## 📡 SERVICE REGISTRY (Live Deployments)
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <b>🔧 CLASS CHANGE</b><br/>
-      Mechanical engineering → Software. Brought the rigorous, stress-tested failure-mode thinking with me.
-    </td>
-    <td width="50%" valign="top">
-      <b>🐛 BUG SLAYER</b><br/>
-      Found and killed a massive 24× over-count in CCTV tracking data that nobody else noticed.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>📄 PUBLISHED RESEARCH</b><br/>
-      IEEE ICEAMST 2025. Architected a blockchain credential verification engine hitting sub-second latency.
-    </td>
-    <td width="50%" valign="top">
-      <b>🗣️ SPRACHE FREIGESCHALTET</b><br/>
-      A2 German. Spent 4 years leading MITAOE's Foreign Language Club.
-    </td>
-  </tr>
-</table>
+*Click any service to inspect the deployment architecture.*
+
+<details>
+<summary><code><b>[ 🟢 LIVE ]</b> credura-verification-engine.sh</code></summary>
+<br/>
+<blockquote>
+<b>Decentralised academic credential verification hitting sub-second validation latency.</b><br/>
+<i>Published paper at IEEE ICEAMST 2025.</i><br/><br/>
+🧰 <b>Stack:</b> Hyperledger Fabric · IPFS · Docker · K8s<br/>
+💎 <b>The 10% Decision:</b> Put hashes on-chain, but documents on IPFS. Got sub-second validation without paying a ledger to store heavy blobs.<br/><br/>
+🔗 <a href="https://credura.duckdns.org/">Execute Live Deployment</a> <i>(Private Repo)</i>
+</blockquote>
+</details>
+
+<details>
+<summary><code><b>[ 🟢 LIVE ]</b> macroshock-risk-engine.py</code></summary>
+<br/>
+<blockquote>
+<b>A multi-asset portfolio risk engine on real 2015–2026 market data.</b><br/>
+<i>Independently recovered published bond durations from first principles. 79% test coverage.</i><br/><br/>
+🧰 <b>Stack:</b> Python · Flask · Redis · Docker<br/>
+💎 <b>The 10% Decision:</b> Used a leave-one-crisis-out backtest instead of a random train/test split. Zero data leakage.<br/><br/>
+🔗 <a href="https://macroshock.streamlit.app">Execute Live Deployment</a> | 📂 <a href="https://github.com/vaishnavi-eklaspur/MacroShock">View Source Code</a>
+</blockquote>
+</details>
+
+<details>
+<summary><code><b>[ 🟢 LIVE ]</b> duo-challenge-tracker.tsx</code></summary>
+<br/>
+<blockquote>
+<b>A shared habit grid for exactly two people.</b><br/>
+<i>Serverless Postgres queried straight from the browser with a 16-condition nudge engine writing specific prompts.</i><br/><br/>
+🧰 <b>Stack:</b> React 18 · Vite · Neon · Tailwind<br/>
+💎 <b>The 10% Decision:</b> Zero-step localStorage identity instead of email/password auth. Eliminated onboarding friction so two people *actually* used it.<br/><br/>
+🔗 <a href="https://duo-challenge-tracker-brown.vercel.app">Execute Live Deployment</a> | 📂 <a href="https://github.com/vaishnavi-eklaspur/Duo-Challenge-Tracker">View Source Code</a>
+</blockquote>
+</details>
+
+<details>
+<summary><code><b>[ 🟢 LIVE ]</b> rahi-ai-counsellor.ts</code></summary>
+<br/>
+<blockquote>
+<b>An AI career counsellor that measures interests, aptitude, and emotional strengths.</b><br/><br/>
+🧰 <b>Stack:</b> Next.js 16 · TypeScript · Gemini · Playwright<br/>
+💎 <b>The 10% Decision:</b> Grounded the LLM strictly in the user's assessment results. It *cannot* invent or hallucinate a career the test never measured.<br/><br/>
+🔗 <a href="https://rahi-fawn.vercel.app/">Execute Live Deployment</a> | 📂 <a href="https://github.com/vaishnavi-eklaspur/rahi">View Source Code</a>
+</blockquote>
+</details>
 
 ---
 
-## 🎒 INVENTORY & LOADOUT
+## 🎒 SYSTEM LOADOUT
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,flask,ts,js,react,nextjs,tailwind&theme=dark" />
@@ -84,22 +92,21 @@ My background isn't in standard web development; it's in mechanical engineering.
 
 ---
 
-## 📊 PLAYER STATS & ARCHITECTURE
+## 📊 TELEMETRY & STATS
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=vaishnavi-eklaspur&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=22d3ee&icon_color=f472b6&text_color=a78bfa" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vaishnavi-eklaspur&theme=tokyonight&hide_border=true&background=00000000&ring=a78bfa&fire=f472b6&currStreakLabel=22d3ee" width="48%" />
   <br/><br/>
-  <!-- The 3D Contribution Cityscape generated by your GitHub Action -->
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contributions Cityscape" />
+  <!-- Using raw github content URL so the 3D graph never breaks -->
+  <img src="https://raw.githubusercontent.com/vaishnavi-eklaspur/vaishnavi-eklaspur/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub Contributions Cityscape" />
 </div>
 
 ---
 
-<details>
-<summary><b>🥚 ❯ cat ~/.aliases</b></summary>
-
 ```bash
+vaishnavi@server:~$ cat ~/.aliases
 alias ship='git push && echo "es funktioniert"'
 alias ganz-sicher='pytest -q && docker compose up --build'
 alias nochmal='git reset --hard HEAD~1'   # used more often than I would like
+```
